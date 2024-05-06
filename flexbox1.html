@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                box-sizing: border-box;
+                background-color: rgb(29, 221, 189);
+                border-left: 8px solid black;
+                border-right: 8px solid black;
+            }
+            .black-heading{
+                width: 100%;
+                height: 15%;
+            }
+            .b-heading{
+                font-size: 80px;
+                font-weight: bolder;
+            }
+            .white-heading{
+                width: 100%;
+                height: 15%;
+                background-color: black;
+            }
+            .w-heading{
+                font-size: 80px;
+                font-weight: bolder;
+                color: white;
+            }
+            .flex-container{
+                width: 100%;
+                height: 60%;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .a{
+                width: 200px;
+                height: 300px;
+                background-color: white;
+                border: 1px solid black;
+                margin-left: 20px;
+            }
+            .b{
+                width: 100%;
+                height: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: red;
+                color: white;
+            }
+            p{
+                margin: 12px;
+            }
+            button{
+                background-color: red;
+                color: white;
+                margin-left: 20px;
+                width: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="black-heading">
+            <center><h1 class="b-heading">CSS Responsive</h1></center>
+        </div>
+        
+        <div class="white-heading">
+            <center><h1 class="w-heading">Flexbox Cards</h1></center>
+        </div>
+
+        <div class="flex-container">
+            <div class="a">
+                <div class="b">React</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ea ratione tempore consectetur qui quo accusamus soluta earum animi odit rerum!</p>
+                <button>Read more</button>
+            </div>
+            <div class="a">
+                <div class="b">Vue</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ea ratione tempore consectetur qui quo accusamus soluta earum animi odit rerum!</p>
+                    <button>Read more</button>
+            </div>
+            <div class="a">
+                <div class="b">Angular</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ea ratione tempore consectetur qui quo accusamus soluta earum animi odit rerum!</p>
+                    <button>Read more</button>
+            </div>
+            <div class="a">
+                <div class="b">JQuery</div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ea ratione tempore consectetur qui quo accusamus soluta earum animi odit rerum!</p>
+                    <button>Read more</button>
+            </div>
+        </div>
+    </body>
+</html>
